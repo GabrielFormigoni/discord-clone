@@ -59,7 +59,7 @@ const ChatItem: React.FC<ChatItemProps> = ({
 
   useEffect(() => {
     form.reset({ content });
-  }, [content]);
+  }, [content, form]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
